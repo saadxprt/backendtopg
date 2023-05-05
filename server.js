@@ -8,6 +8,6 @@ const server = http.createServer((req, res) => {
     res.end();
 });
 
-server.listen(8080, () => {
+server.listen(443, () => {
     console.log("Server running on http://localhost:8080/");
 });
